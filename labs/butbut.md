@@ -6,9 +6,9 @@
 
 ## 2. 環境 (Environment)
 
-* OS:
-* Environment:
-* Tools / Commands:
+- OS :
+- Environment :
+- Tools / Commands :
 
 ## 3. 実習 (Practice)
 
@@ -26,23 +26,23 @@
 
 確認できたこと：
 
-*
-*
-*
+-
+-
+-
 
 ## 5. 結果の分析 (Analysis)
 
-*
-*
-*
+-
+-
+-
 
 ## 6. トラブルシューティングの観点 (Troubleshooting)
 
 この通信・機能が正常に動作しない場合、以下のような原因が考えられる。
 
-*
-*
-*
+-
+-
+-
 
 確認方法：
 
@@ -51,6 +51,6 @@
 
 ## 7. 学びと考察 (Learning & Insights)
 
-*
-*
-*
+-
+-
+-
