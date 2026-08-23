@@ -27,11 +27,11 @@ ping 8.8.8.8
 
 ICMP Echo RequestとEcho Replyをキャプチャした。
 
-### Step 2.  IPv4ヘッダの確認
+### Step 2. IPv4ヘッダの確認
 
 キャプチャしたICMP Echo Requestを選択し、IPv4ヘッダを確認した。
 
-確認した項目 ：
+確認した項目：
 
 - Source Address
 - Destination Address
@@ -43,7 +43,7 @@ ICMP Echo RequestとEcho Replyをキャプチャした。
 
 キャプチャしたICMP Echo Requestを選択し、イーサネットヘッダを確認した。
 
-確認した項目 ：
+確認した項目：
 
 - Destination
 - Source
@@ -91,8 +91,8 @@ ICMP Echo Request / Replyを確認した。
 ## 5. 結果の分析 (Analysis)
 
 - Wiresharkを使用することで、外部ホストへのPingで発生するICMPトラフィックを実際に確認できた。
-- ループバックアドレス宛てのICMPパケットはイーサネットインターフェースではキャプチャされず、ループバックインターフェースではキャプチャされた。
-- この結果から、ループバック通信は物理ネットワークへ送信されず、ホスト内部で処理されることを確認できた。
+- ループバックアドレス宛てのICMPパケットは、イーサネットインターフェースではキャプチャされず、ループバックインターフェースではキャプチャされた。
+- この結果から、ループバック通信は、物理ネットワークへ送信されず、ホスト内部で処理されることを確認できた。
 
 ## 6. 学びと考察 (Learning & Insights)
 
