@@ -69,17 +69,17 @@ ICMP Echo Request / Replyを確認した。
 
 #### IPv4ヘッダ
 
-- Source Address : `192.168.219.100`
-- Destination Address : `8.8.8.8`
-- TTL : `128`
-- Protocol : `ICMP`
-- Total Length : `60 bytes`
+- Source Address : 192.168.219.100
+- Destination Address : 8.8.8.8
+- TTL : 128
+- Protocol : ICMP
+- Total Length : 60 bytes
 
 #### イーサネットヘッダ
 
-- Destination : `50:46:ae:6d:af:30`
-- Source : `d4:5d:64:55:4f:7b`
-- Type : `IPv4`
+- Destination : 50:46:ae:6d:af:30
+- Source : d4:5d:64:55:4f:7b
+- Type : IPv4
 
 ### 127.0.0.1
 
@@ -96,6 +96,5 @@ ICMP Echo Request / Replyを確認した。
 
 ## 6. 学びと考察 (Learning & Insights)
 
--    
--
--
+- Wiresharkでパケットを確認することで、レイヤー2のMACアドレスとレイヤー3のIPアドレスが同じ通信の中でそれぞれ異なる役割を持つことを理解した。
+- 外部ホストへの通信とループバック通信を比較することで、通信先によって使用されるインターフェースや通信経路が異なることを確認できた。
