@@ -10,39 +10,27 @@
 
 ### Notes
 
-1. Network Basics
-2. Layer2 Basics
-3. IP
-4. Routing
-5. TCP / UDP
-6. DNS
-7. HTTP / Web
-8. Network Device Structure
-9. NAT
-10. Load Balancing
-11. VPN / Security
-12. Linux Networking
+1. [Network Basics](notes/01-network-basics.md)
+2. [Layer2 Basics](notes/02-layer2-ethernet.md)
+3. [IP](notes/03-ip.md)
+4. [Routing](notes/04-routing.md)
+5. [TCP / UDP](notes/05-tcp-udp.md)
+6. [DNS](notes/06-dns.md)
+7. [HTTP / Web](notes/07-http-web.md)
+8. [Network Device Structure](notes/08-network-device-structure.md)
+9. [NAT](notes/09-nat.md)
+10. [Load Balancing](notes/10-load-balancing.md)
+11. [VPN / Security](notes/11-vpn-security.md)
+12. [Linux Networking](notes/12-linux-networking.md)
 
 ### Labs
 
-1. Interface and Address Check
-2. Ping and Packet Capture
-3. Routing and Path Check
-4. DNS Resolution Check
-5. Socket and Port Check
-6. HTTP and Packet Capture
-
-## 学習内容
-
-- Ethernet、MACアドレス、IPアドレスなどのネットワークの基礎
-- ルーティングとネットワーク間通信の仕組み
-- TCP / UDPとポート、ソケット
-- DNSによる名前解決
-- HTTP通信とWebの基本
-- Proxy、NAT、Load Balancing
-- VPNとネットワークセキュリティ
-- Linux環境でのネットワーク情報の確認
-- tcpdumpを使用したパケットキャプチャ
+1. [Interface and Address Check](labs/01-interface-and-address-check.md)
+2. [Ping and Packet Capture](labs/02-ping-and-packet-capture.md)
+3. [Routing and Path Check](labs/03-routing-and-path-check.md)
+4. [DNS Resolution Check](labs/04-dns-resolution-check.md)
+5. [Socket and Port Check](labs/05-socket-and-port-check.md)
+6. [HTTP and Packet Capture](labs/06-http-and-packet-capture.md)
 
 ## 実習環境
 
