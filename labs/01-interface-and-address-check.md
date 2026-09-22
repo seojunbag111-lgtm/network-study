@@ -8,7 +8,7 @@
 
 - OS : Linux (Ubuntu)
 - Environment : WSL2
-- Tools / Commands : `ip link` , `ip addr`
+- Tools / Commands : `ip link`、`ip addr`
 
 ## 3. 実習 (Practice)
 
